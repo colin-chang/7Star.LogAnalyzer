@@ -1,18 +1,18 @@
-# 日志采集器 Demo
+# 日志采集器 Demo
 
 ## 功能简介
-1. 自动采集Log4Net日志
-2. 提取整理关键资料（联合MySQL数据库）
-3. 生成Excel报表
+1. 自动采集Log4Net日志
+2. 提取整理关键资料(联合MySQL数据库)
+3. 生成Excel报表
 
-## 相关技术
-1. DotNET Core 2.0
+## 相关技术
+1. DotNET Core 2.0
 2. EF Core(for MySQL)
-3. NPOI(for DotNet Core)
+3. NPOI(for DotNet Core)
 
-## 技术点
-1. .net core文件读写在Mac等平台下无法读取Windows共享目录下的文件
-2. .net core配置文件使用方式
+## 技术点
+1. .net core文件读写在Mac等平台下无法读取Windows共享目录下的文件
+2. .net core配置文件使用方式
  
 + .net core项目配置文件使用json格式。生成方式一定要设置为生成到输出目录
 + 配置文件读取借助以下两个Nuget包
@@ -46,7 +46,7 @@
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 ```
 4. .net core 2.0引用Nuget包会在csproj文件中生成配置，没有package.json文件
-5. Nuget包使用
+5. Nuget包使用
 + Visual Studio for Mac中安装“Nuget Package Management Extensions”扩展之后可以像Windows中一样通过Nuget管理器界面安装Nuget包
 + Visual Studio for Mac中安装“PowerShell"扩展后可以像Windows中一样使用包管理控制台通过命令 `PM> Install-Package xxx`安装Nuget包
 + 直接过个dotnet命令安装Nuget包。终端中转到项目目录下执行 `> dotnet add package xxx`安装Nuget包
