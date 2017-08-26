@@ -34,6 +34,12 @@ namespace LogCollector.Application
         /// <param name="dir">Dir.</param>
         static void ScanLogs(string dir, string path)
         {
+            if (!Directory.Exists(dir))
+            {
+                Console.WriteLine($"日志目录 {dir} 不存在...");
+                return;
+            }
+
             Stopwatch watch = new Stopwatch();
             watch.Start();
             long totalElapse = 0;
