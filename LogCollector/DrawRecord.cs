@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LogCollector.Application
+namespace LogCollector
 {
     public class DrawRecord
     {

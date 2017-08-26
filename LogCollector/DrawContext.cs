@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using MySQL.Data.EntityFrameworkCore.Extensions;
 
-namespace LogCollector.Application
+namespace LogCollector
 {
     public class DrawContext : DbContext
     {

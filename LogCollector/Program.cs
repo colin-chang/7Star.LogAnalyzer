@@ -11,7 +11,7 @@ using NPOI.HSSF.UserModel;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 
-namespace LogCollector.Application
+namespace LogCollector
 {
     class Program
     {

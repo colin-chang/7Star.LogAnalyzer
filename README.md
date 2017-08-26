@@ -1,4 +1,4 @@
-# 日志采集器 Demo
+# 数据采集器 Demo
 
 ## 功能简介
 1. 自动采集Log4Net日志
@@ -60,3 +60,6 @@ Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
   </ItemGroup>
 </Project>
 ```
+> 相关Nuget包
+>> 1. [DotNetCore.NPOI](https://www.nuget.org/packages/DotNetCore.NPOI/)
+>> 2. [MySql.Data.EntityFrameworkCore](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/8.0.8-dmr)
