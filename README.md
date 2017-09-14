@@ -60,6 +60,6 @@ Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
   </ItemGroup>
 </Project>
 ```
-> 相关Nuget包
+> 相关Nuget包
 >> 1. [DotNetCore.NPOI](https://www.nuget.org/packages/DotNetCore.NPOI/)
 >> 2. [MySql.Data.EntityFrameworkCore](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/8.0.8-dmr)
